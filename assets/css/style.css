@@ -55,9 +55,17 @@ body {
   text-shadow: 2px 2px 1px  #000000;
 }
 
+.bold_shadow{
+  text-shadow: 2px 7px 1px  #000000;
+}
+
 
 .mirror_image{
   transform: scaleX(-1);
+}
+
+.contract_shadow{
+  box-shadow: 0px 10px 0px 0px #00000073;
 }
 
 section:not(.hero) .title {
