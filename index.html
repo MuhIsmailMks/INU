@@ -84,11 +84,11 @@
 
                 </div>
 
-                    <div 
+                    <a href="https://app.uniswap.org/swap?outputCurrency=0x407b574d34d1b967d1a6c927c58b6b76b7f9202f" target="_blank"
                         class="relative w-[90px] buy h-[40px] md:w-[145px] uppercase md:h-[63px] flex justify-center items-center btn_hover  rock_font hover:scale-110 duration-300 cursor-pointer ">
                         <span class="h-full w-full absolute bg-[#509624] border-black border-[2px] lg:border-[4px] rotate-[6deg]"></span>
                         <p class="relative z-10 text-[black]  text-[10px] xl:text-[16px] proza-libre_font font-bold">Buy <br> $FROG</p>
-                    </div>
+                    </a>
 
                 
 
@@ -165,10 +165,10 @@
                         <img src="./assets/images/dex_bg_hero.svg" alt="" class="w-full h-full object-contain relative">
                         <p class="absolute text-[12px] xl:text-[18px]">Dextools</p>
                     </a>
-                    <button class="relative duration-100 hover:scale-90 w-[90px] h-[40px] xl:w-[153.75px] xl:h-[69.73px] flex justify-center items-center">
+                    <a href="https://app.uniswap.org/swap?outputCurrency=0x407b574d34d1b967d1a6c927c58b6b76b7f9202f" target="_blank" class="relative duration-100 hover:scale-90 w-[90px] h-[40px] xl:w-[153.75px] xl:h-[69.73px] flex justify-center items-center">
                         <img src="./assets/images/buy_bg_hero.svg" alt="" class="w-full h-full object-contain relative">
                         <p class="absolute text-[12px] xl:text-[18px]">Buy $FROG</p>
-                    </button>
+                    </a>
                 </div>
 
                 <!-- contract -->
@@ -237,15 +237,17 @@
 
                         
                         <div class="relative cursor-pointer duration-150 hover:scale-105 ">
-                            <button class="bg-[#F17878] rounded-[15px] w-[90px] h-[40px] border-[3px] border-black flex justify-center items-center">
+                            <a href="https://blog.threadless.com/artist-matt-furie-has-teamed-up-with-save-the-frogs-to-savepepe-artist-shop-spotlight/" target="_blank" class="bg-[#F17878] rounded-[15px] w-[90px] h-[40px] border-[3px] border-black flex justify-center items-center">
                                 <img src="./assets/images/searching_text.svg" alt="" class="h-auto object-contain w-[90%]">
-                            </button>
+                            </a>
                         </div>
 
                     </div>
 
                     <!-- buy -->
-                        <img src="./assets/images/etherscan_dextools.png" alt="ether" class="w-[200px] h-auto object-contain">
+                    <a href="https://etherscan.io/token/0x407b574d34d1b967d1a6c927c58b6b76b7f9202f" target="_blank" class="relative w-auto h-auto">
+                        <img src="./assets/images/etherscan_dextools.png" alt="ether" class="w-[200px] h-auto object-contain hover:scale-110">
+                    </a>
 
                     
 
@@ -272,9 +274,10 @@
                                 <p class="text-[#828282]">code :</p>
                                 <p>$FROG</p>
                             </div>
-                            <div class="w-full text-black  flex justify-between items-center ">
+                            <div class="w-full text-black  flex justify-between items-center  cursor-pointer copy_btns">
                                 <p class="text-[#828282]">contract :</p>
-                                <p>0x00...dead</p>
+                                <p class="copy_btn contract_address">0x4. . . 202F</p>
+                                <!-- <p>0x4. . . 202F</p> -->
                             </div>
                             <div class="w-full text-black  flex justify-between items-center ">
                                 <p class="text-[#828282]">looking for :</p>
@@ -489,11 +492,11 @@
                     <p class="text-[10px] md:text-[14px] xl:text-[16px] contract_address">0x407b574D34d1B967d1A6c927c58b6B76B7F9202F</p>
                     <img src="./assets/images/copy_btn.svg" alt="" class="w-[40] xl:w-[50px] h-auto object-contain cursor-pointer copy_btn">
                   </div>
-                 <div class="relative"  data-aos="fade-up"
+                 <a href="https://app.uniswap.org/swap?outputCurrency=0x407b574d34d1b967d1a6c927c58b6b76b7f9202f" target="_blank" class="relative"  data-aos="fade-up"
                  data-aos-duration="500"
                  data-aos-delay="500">
                     <img src="./assets/images/buy_uns.png" alt="" class="h-[60px] w-auto object-contain duration-100 hover:scale-110 cursor-pointer"  >
-                 </div>
+                 </a>
 
 
                   <!-- bg -->
@@ -568,7 +571,8 @@
                 <a href="https://t.me/PeaceFrogEntry" target="_blank" class="relative duration-100 hover:scale-110">
                     <img src="./assets/images/telegram_footer.png" alt="" class="w-[60px] min-[1500px]:h-[80px] h-auto object-contain">
                 </a>
-                <a href="#" class="relative duration-100 hover:scale-110">
+                <a href="
+                https://etherscan.io/token/0x407b574d34d1b967d1a6c927c58b6b76b7f9202f" target="_blank" class="relative duration-100 hover:scale-110">
                     <img src="./assets/images/etherium.png" alt="" class="w-[60px] min-[1500px]:h-[80px] h-auto object-contain">
                 </a>
             </div>
@@ -666,7 +670,7 @@ popUp_container.addEventListener('click', () =>{
             let timeout;
 
             btn.addEventListener('click', function () { 
-                navigator.clipboard.writeText(text.innerText).then(function() { 
+                navigator.clipboard.writeText('0x407b574D34d1B967d1A6c927c58b6B76B7F9202F').then(function() { 
                     text.innerText = 'Copied';
             
                     clearTimeout(timeout);
