@@ -2856,6 +2856,12 @@ footer {
   }
 }
 
+@media screen and (min-width:1550px) {
+  .about_text p{
+    font-size: 22px !important;
+  }
+}
+
 @media screen and (max-width:1024px) {
   .title{
         font-size: 20vw;

@@ -58,6 +58,30 @@
       top: -63.5%;
     }
 
+    
+    
+
+    @media screen and (min-width:4000px){ 
+      .questions_content{
+        height: 30vw;
+      }
+      .faq_container{ 
+        padding-bottom: 1000vw !important;
+      }
+    }
+    @media screen and (min-width:1500px){ 
+      .faq_container{
+        height: auto;
+        padding-bottom: 200px;
+      }
+
+      .aboutImage{
+        width: 50%;
+        height: auto;
+        object-fit: contain;
+      }
+    }
+    
     @media screen and (max-width:500px){
       .banner__bottom{
         margin-bottom: 100px;
@@ -278,7 +302,7 @@
               </div>
               <img src="assets/svg/elipse.svg" />
             </div>
-            <img src="assets/png/about.png" />
+            <img src="assets/png/about.png" class="aboutImage"/>
           </div>
         </div>
       </section>
@@ -415,7 +439,7 @@
               <h2 class="questionsaa__title">Any questions left?</h2>
               <img src="assets/png/question_1.png" />
             </div>
-            <div>
+            <div class="faq_container">
               <ul
                 style="
                   list-style: none;
