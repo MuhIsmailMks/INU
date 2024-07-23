@@ -2,18 +2,20 @@
 
 @font-face {
   font-family: "Cutie Molly Demo";
-  src: url(/assets/fonts/cutiemollydemo.ttf) format("truetype");
+  src: url('../assets/fonts/cutiemollydemo.ttf') format("truetype");
 }
 
 @font-face {
   font-family: "Milk Kids";
-  src: url(/assets/fonts/MilkKids.ttf) format("truetype");
+  src: url('../assets/fonts/MilkKids.ttf') format("truetype");
 }
 
 @font-face {
   font-family: "Spicy Soup";
-  src: url(/assets/fonts/spicysoup.ttf) format("truetype");
+  src: url('../assets/fonts/spicysoup.ttf') format("truetype");
 }
+ 
+
 
 .tippy-box[data-animation="fade"][data-state="hidden"] {
   opacity: 0;
