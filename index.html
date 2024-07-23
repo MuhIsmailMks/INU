@@ -43,8 +43,32 @@
   </head>
   <body>
 
-    <style>   
+    <style>    
+    .menggantung{
+      width: 408px;
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
 
+      position: absolute;
+      z-index: 99;
+
+      left: 48.5%;
+      transform: translateX(-50%);
+      top: -94%;
+    }
+
+    @media screen and (max-width:500px){
+      .banner__bottom{
+        margin-bottom: 100px;
+        margin-top: 130px;
+      }
+      .menggantung{
+          width: 300px; 
+          top: -135px;
+        }
+    }
+    
     </style>
 
     <main>
@@ -200,10 +224,11 @@
           </div>
         </div>
         <div class="banner__bottom">
-          <img class="snow_bg" src="assets/svg/banner_elipse.svg" />
+          <img class="snow_bg" src="assets/svg/banner_elipse.svg" /> 
           <img class="snow" src="assets/svg/snow.svg" />
-          <img class="ping" src="assets/png/ping.png" />
-          <img class="pinghand" src="assets/png/pinghand.png" />
+          <!-- <img class="ping" src="assets/png/ping12.png" /> 
+           <img class="hand" src="./assets/png/hand (2).png" alt=""> -->
+           <img class="menggantung" src="./assets/png/flipper_snow (1).png" alt=""> 
         </div>
         <div class="_partners container">
           <article class="partners"><h2>Our partners</h2></article>

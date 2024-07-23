@@ -331,6 +331,7 @@ main {
   width: 100dvw;
   height: 280px;
   margin-top: 340px;
+  margin-bottom: 230px;
 }
 .banner__transition {
   position: absolute;
