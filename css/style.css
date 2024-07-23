@@ -2720,10 +2720,12 @@ footer {
 /* new update */
 
 /* header */
+.links_social a img,
 .header__link a img{
   transition: .5s ease-in-out;
 }
 
+.links_social a:hover img,
 .header__link a:hover img{
    transform: rotate(380deg);
 }
