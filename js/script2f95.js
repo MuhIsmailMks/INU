@@ -27,5 +27,8 @@ $('.accordian').click(function () {
 });
 
 function copy() {
-  window.navigator.clipboard.writeText($('#numbers').html().trim());
+  window.navigator.clipboard.writeText($('#numbers').html().trim()).then(function() {
+    $('#copyButton').text('Copied');
+  });
 }
+
