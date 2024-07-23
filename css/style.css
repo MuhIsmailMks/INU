@@ -170,7 +170,8 @@ body {
   list-style: none;
   gap: 12px;
 }
-.header__link > a {
+
+.header__link>a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,13 +181,14 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: url(/assets/svg/cloud_link.svg);
+  background-image: url('../assets/svg/cloud_link.svg') !important;
   width: 102px;
   height: 72px;
   -webkit-transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
 }
+
 .header__link2 {
   display: -webkit-box;
   display: -ms-flexbox;
