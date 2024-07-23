@@ -2870,4 +2870,8 @@ footer {
     height: auto;
     object-fit: contain;
    }
+
+   .about_text p{
+    font-size:3vw;
+   }
 }
