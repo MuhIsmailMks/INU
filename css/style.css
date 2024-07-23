@@ -2803,3 +2803,19 @@ footer {
         gap: .1em; 
     }
 }
+
+
+@media screen and (max-width:500px) {
+  .header__link>a{
+    width:80px;
+    height:50px;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+  }
+  .header__link>a img{
+    width: 30% !important;
+    height: auto;
+    object-fit: contain;
+   }
+}
