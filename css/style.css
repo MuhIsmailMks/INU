@@ -1141,10 +1141,13 @@ footer {
   -webkit-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  color: #fff;
+  color: #B6EAFF;
   -webkit-transition: top 1.5s;
   transition: top 1.5s;
   text-align: center;
+}
+.egg_s > div:hover p{
+  color: #FFF;
 }
 .egg_s > div > img {
   width: 100%;
@@ -2874,4 +2877,8 @@ footer {
    .about_text p{
     font-size:3vw;
    }
+
+   .egg_s > div > p{
+    font-size:3vw;
+   } 
 }
