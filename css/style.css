@@ -1480,10 +1480,13 @@ footer {
   -webkit-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  color: #fff;
+  color: #B6EAFF;
   -webkit-transition: top 1.5s;
   transition: top 1.5s;
   text-align: center;
+}
+.egg > div:hover p{
+  color: #fff;
 }
 .egg > div > img:nth-child(2) {
   position: relative;
