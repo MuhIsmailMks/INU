@@ -2647,7 +2647,7 @@ footer {
   }
   .tokens > span {
     padding-left: 10px;
-    font-size: 14px;
+    font-size: 12px;
   }
   .tokens > span button {
     font-size: 14px;
@@ -2665,7 +2665,7 @@ footer {
     position: absolute;
   }
   .tokens > span {
-    font-size: 12px;
+    font-size: 2.5vw;
   }
   .header__link2 {
     display: -webkit-box;
