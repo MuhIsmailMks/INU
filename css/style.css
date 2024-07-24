@@ -2966,11 +2966,15 @@ footer {
 
    .egg_s > div > p{
     font-size:3vw;
-   } 
+   }  
 
    .banner__bottom{
     margin-bottom: 100px;
     margin-top: 130px;
+  }
+
+  .banner__top > div{
+    bottom: 0px;
   }
 
     .menggantung{
