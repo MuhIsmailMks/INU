@@ -576,6 +576,7 @@ footer {
   border: 7px solid #19334a;
   border-radius: 32px;
   transition: .3s ease-in-out;
+  cursor:pointer;
 }
 .tokens__card:nth-child(1) {
   -webkit-transform: rotate(-3.6deg);
