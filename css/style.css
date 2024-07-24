@@ -239,7 +239,7 @@ main {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-top: 82px;
+  /* padding-top: 82px; */
   padding-bottom: 200px;
   background-color: #2596ff;
   position: relative;
@@ -256,7 +256,7 @@ main {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  min-height:400px;
+  min-height:350px;
   width:100%;
 }
 .banner__top > img {
@@ -330,7 +330,7 @@ main {
   position: relative;
   width: 100dvw;
   height: 280px;
-  margin-top: 340px;
+  margin-top: 180px;
   margin-bottom: 230px;
 }
 .banner__transition {
@@ -1435,28 +1435,28 @@ footer {
 .egg:nth-child(1) {
   position: absolute;
   left: 4%;
-  top: 50%;
+  top: 30%;
   z-index: 1;
   rotate: -10deg;
 }
 .egg:nth-child(2) {
   position: absolute;
   right: 4%;
-  top: 49%;
+  top: 30%;
   z-index: 1;
   rotate: 10deg;
 }
 .egg:nth-child(3) {
   position: absolute;
   left: 24%;
-  top: 45%;
+  top: 25%;
   scale: 1.1;
   z-index: 1;
 }
 .egg:nth-child(4) {
   position: absolute;
   right: 24%;
-  top: 45%;
+  top: 25%;
   scale: 1.1;
   z-index: 1;
 }
@@ -2741,7 +2741,7 @@ footer {
 
 /* home */
 .title{
-  font-size: 16vw;
+  font-size: 9vw;
   font-family: var(--font-cutie);
   color: white; 
 
@@ -2889,7 +2889,7 @@ footer {
 }
 
 .menggantung{
-  width: 340px;
+  width: 280px;
   max-width: 100%;
   height: auto;
   object-fit: contain;
@@ -2899,7 +2899,7 @@ footer {
 
   left: 48.5%;
   transform: translateX(-50%);
-  top: -63.5%;
+  top: -40.5%;
 }
 
 
