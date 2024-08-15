@@ -31,6 +31,11 @@
         padding: 0;
         grid-column-gap: 0px !important;
     }
+ 
+    .elementor-5843 .title{
+        text-align: center;
+        width: 100%;
+    }
 
     .elementor-5843 .elementor-element.elementor-element-f4c7460 .ygency-team-member .member-image{
         width: 100% !important;
@@ -39,5 +44,14 @@
 
     .ygency-team-member{
         width: 90%;
+    }
+
+    /* blog */
+    .blog_title{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100%;
     }
 }
