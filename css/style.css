@@ -1,3 +1,7 @@
+:root{
+    --primary-color:#3b9bd3;
+}
+
 .hidden_element{
     display: none !important;
     opacity: 0 !important;
@@ -12,6 +16,120 @@
     max-width: 300px;
 }
 
+.plan_container .arrow img{
+    position: relative;
+    width: 70px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* plan */
+.plan_container{
+    width: 100%;
+    max-width: 1780px;
+    height: auto;
+    position: relative;
+    background-color: #0A1019;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.plan_container .ygency-section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan_container .content{
+    width: 100%;
+    position: relative;
+    height: auto;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+    gap: 2rem;
+    padding: 0 3rem;
+    margin-top: 3rem;
+}
+
+.plan_container .content .column{
+    width: 450px;
+    border: 1px solid var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 1rem;
+    gap: 3rem;
+
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+ 
+
+.plan_container .content .column .about_plan{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+}
+
+.plan_container .title_plan{
+    display: flex;
+    align-items: center;  
+    gap: 1rem;
+}
+
+.plan_container .title_plan h3{
+    margin: 0;
+}
+ 
+.title_plan span{
+    width: 30px;
+    height: 4px;
+    background-color: var(--primary-color);
+}
+
+.about_plan p{
+    width: 100%;
+    max-width: 90%;
+}
+
+.plan_container .ygency-button{
+    background-color: var(--primary-color);
+}
+
+@media screen and (max-width:1023px) { 
+    .plan_container .title .main-text{
+        font-size: 50px;
+    }
+
+    .plan_container .content{ 
+        flex-direction: column;
+        padding: 1rem;
+        gap: 4rem;
+    }
+ 
+    .arrow{
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+}
+     
+}
+
 @media screen and (max-width:600px) {
 
     /* hero */
@@ -23,6 +141,15 @@
         display: flex;
         justify-content: center;
         
+    }
+
+    /* plan */
+    .plan_container .content{ 
+        gap: 2rem;
+    }
+
+    .plan_container .content .column{
+        width: 90%;
     }
 
     /* about */

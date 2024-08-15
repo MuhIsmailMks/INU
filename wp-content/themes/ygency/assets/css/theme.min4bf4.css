@@ -6203,7 +6203,7 @@ body.admin-bar .ygency-nav-menu .slide-panel-wrapper .slide-panel-content {
 }
 @media only screen and (max-width: 1024px) {
   .ygency-portfolio-items.design-content-hover {
-    -ms-grid-columns: (1fr) [2];
+    -ms-grid-columns: (1fr) 1;
     grid-template-columns: repeat(2, 1fr);
   }
 }
