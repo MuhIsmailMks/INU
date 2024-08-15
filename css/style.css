@@ -81,17 +81,19 @@
     
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2rem; 
 }
 
 .plan_container .title_plan{
     display: flex;
     align-items: center;  
+    width:95%;
     gap: 1rem;
 }
 
 .plan_container .title_plan h3{
-    margin: 0;
+    margin: 0; 
 }
  
 .title_plan span{
