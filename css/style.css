@@ -3,3 +3,41 @@
     opacity: 0 !important;
     z-index: -1999 !important;
 }
+
+.white_color{
+    color: white !important;
+}
+
+.ygency-team-member{
+    max-width: 300px;
+}
+
+@media screen and (max-width:600px) {
+
+    /* hero */
+    .slider-container .slider-content{
+        text-align: center;
+    }
+
+    .slider-container .slider-button-wrapper {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    /* about */
+    .ygency-team-members{
+        width: 100%;
+        padding: 0;
+        grid-column-gap: 0px !important;
+    }
+
+    .elementor-5843 .elementor-element.elementor-element-f4c7460 .ygency-team-member .member-image{
+        width: 100% !important;
+        object-fit: cover;
+    }
+
+    .ygency-team-member{
+        width: 90%;
+    }
+}
