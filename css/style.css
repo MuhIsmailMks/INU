@@ -2,6 +2,7 @@
     --primary-color:#3b9bd3;
 }
 
+/* utils */
 .hidden_element{
     display: none !important;
     opacity: 0 !important;
@@ -12,6 +13,15 @@
     color: white !important;
 }
 
+.text_gradient{
+  /* background: linear-gradient(10deg, #004DE4 51.75%, #02C1FF 65.71%);  */
+  background: linear-gradient(93.66deg, #004DE4 -23.12%, #02C1FF 98.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #0000;
+}
+
+
+/* styling */
 .ygency-team-member{
     max-width: 300px;
 }
