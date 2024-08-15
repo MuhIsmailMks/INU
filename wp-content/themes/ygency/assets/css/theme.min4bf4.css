@@ -5233,9 +5233,9 @@ blockquote cite {
 .ygency-nav-menu .nav-menu-wrapper .sub-menu li:hover > .sub-menu {
   top: 0;
 }
-.ygency-nav-menu .nav-menu-wrapper li.current_page_item > a {
+/* .ygency-nav-menu .nav-menu-wrapper li.current_page_item > a {
   color: var(--ygency-primary-color);
-}
+} */
 .ygency-nav-menu .nav-menu-wrapper li:hover > .sub-menu {
   opacity: 1;
   -webkit-transform: none !important;
