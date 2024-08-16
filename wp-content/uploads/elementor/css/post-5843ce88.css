@@ -1122,7 +1122,8 @@
     .ygency-team-member
     .member-image {
     width: 250px;
-    height: 250px;
+    height: 63vw;
+    max-height: 300px;
   }
   .elementor-5843
     .elementor-element.elementor-element-f4c7460.elementor-element {

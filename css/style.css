@@ -18,7 +18,7 @@ body{
 }
 
 .light_effect{
-    
+
 }
 
 .text_gradient{ 
@@ -86,6 +86,7 @@ body{
     padding: 1rem;
     gap: 3rem;
 
+    overflow: hidden;
     position: relative;
 
     border-radius: 10px;
