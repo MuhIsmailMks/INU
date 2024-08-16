@@ -1,9 +1,10 @@
 :root{
     --primary-color:#3b9bd3;
+    --bodyClr:#090925;
 }
 
 body{
-    background-color: #090925;
+    background-color: var(--bodyClr);
 }
 
 /* utils */
@@ -68,7 +69,7 @@ body{
     height: auto;
     position: relative;
     z-index: 10;
-    background-color: #090925;
+    background-color: var(--bodyClr);
 
     display: flex;
     flex-direction: column;
@@ -207,7 +208,7 @@ body{
 
     gap: 3rem;
     padding-bottom: 3rem;
-    background-color: #090925;
+    background-color: var(--bodyClr);
 }
 
 .content_total{
@@ -265,9 +266,13 @@ body{
 }
 
 .total_btns .ygency-button-wrapper a{
-    width: 260px; 
+    width: 260px;  
 }
 
+.total_btns .ygency-button-wrapper.active_btn a{
+    background: var(--bodyClr) !important;
+    border: #0069EA 1px solid;
+}
 
 
 @media screen and (max-width:1023px) { 
