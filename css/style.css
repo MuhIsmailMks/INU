@@ -3,6 +3,10 @@
     --bodyClr:#090925;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: var(--bodyClr);
 }
@@ -85,7 +89,7 @@ body{
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
-    opacity: .8;
+    opacity: .7;
 }
 
 /* plan */
