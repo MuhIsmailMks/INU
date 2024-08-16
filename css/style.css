@@ -14,6 +14,12 @@ body{
     z-index: -1999 !important;
 }
 
+.ygency-sticky.ygency-sticky-active{
+    display: none !important;
+    opacity: 0 !important;
+    position: absolute;
+}
+
 .white_color{
     color: white !important;
 }
