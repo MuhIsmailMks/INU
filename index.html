@@ -1727,7 +1727,7 @@
                             id="menu-item-6217"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6217"
                           >
-                            <a href="#pricing"
+                            <a href="#pricing" class="pricings"
                               ><span class="link-text">Pricing</span></a
                             >
                           </li>
@@ -1736,7 +1736,7 @@
                             id="menu-item-8492"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8492"
                           >
-                            <a href="#partners"
+                            <a href="#partners" 
                               ><span class="link-text">Partners</span></a
                             >
                           </li>
@@ -1796,7 +1796,7 @@
                               id="menu-item-7169"
                               class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7169"
                             >
-                              <a href="#pricing"
+                              <a href="#pricing" class="pricings"
                                 ><span class="link-text">Pricing</span></a
                               >
                             </li>
@@ -1814,7 +1814,7 @@
                                 id="menu-item-8593"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8593"
                               >
-                                <a href="#partners"
+                                <a href="#partners" 
                                   ><span class="link-text">Partners</span></a
                                 >
                               </li> 
@@ -2504,14 +2504,14 @@
                           <li
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6217"
                           >
-                            <a href="#pricing"
+                            <a href="#pricing" class="pricings"
                               ><span class="link-text">Pricing</span></a
                             >
                           </li>
                           <li
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8492"
                           >
-                            <a href="#partners"
+                            <a href="#partners" 
                               ><span class="link-text">Partners</span></a
                             >
                           </li>
@@ -2574,12 +2574,18 @@
                                 >
                               </li>
 
-                              
+                              <li
+                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8593"
+                            >
+                              <a href="#pricing" class="pricings" 
+                                ><span class="link-text">Pricing</span></a
+                              >
+                            </li>
 
                               <li
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8593"
                               >
-                                <a href="#partners"
+                                <a href="#partners" 
                                   ><span class="link-text">Partners</span></a
                                 >
                               </li>
@@ -5619,13 +5625,15 @@
                               >
                             </a>
                           </li> 
+                         
                           <li
                             class="elementor-icon-list-item elementor-inline-item"
                           >
-                            <a href="#partners">
+                            <a href="#partners" >
                               <span class="elementor-icon-list-text"> Partners</span>
                             </a>
                           </li>
+
                           <li
                             class="elementor-icon-list-item elementor-inline-item"
                           >
@@ -5749,6 +5757,18 @@
       href="wp-content/plugins/metform/public/assets/css/style6f61.css?ver=3.8.9"
       media="all"
     />
+    <script>
+      const pricings = document.querySelectorAll('pricings')
+      pricings.forEach(pricing => {
+        pricing.addEventListener('click', function(event) {
+    event.preventDefault(); 
+
+    const targetSection = document.getElementById('pricing');
+
+    targetSection.scrollIntoView({ behavior: 'smooth' });
+  });
+      }) 
+    </script>
     <script
       src="wp-content/plugins/metform/public/assets/lib/cute-alert/cute-alert6f61.js?ver=3.8.9"
       id="cute-alert-js"
@@ -6072,8 +6092,6 @@
       });
     </script>
   </body>
-
-  <!-- Mirrored from dcaweb3.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Aug 2024 00:29:39 GMT -->
+ 
 </html>
-
-<!-- Cached by WP-Optimize (gzip) - https://getwpo.com - Last modified: 14/08/2024 7:07 AM (UTC:0) -->
+ 
