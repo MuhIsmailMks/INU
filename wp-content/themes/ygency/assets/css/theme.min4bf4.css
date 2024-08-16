@@ -6213,13 +6213,7 @@ body.admin-bar .ygency-nav-menu .slide-panel-wrapper .slide-panel-content {
     -ms-grid-columns: (1fr) 1;
     grid-template-columns: repeat(2, 1fr);
   }
-}
-@media only screen and (max-width: 767px) {
-  .ygency-portfolio-items.design-content-hover {
-    -ms-grid-columns: (1fr) [1];
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
+} 
 .ygency-portfolio-items.design-content-hover .portfolio-thumbnail {
   width: 100%;
   height: 500px;

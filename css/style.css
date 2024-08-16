@@ -368,7 +368,7 @@ body{
 @media screen and (max-width:600px) {
     /* utils */
     .none_margin{
-        margin: 0px !important;
+        margin: 2rem 0px 0 !important;
     }
     /* nav */
     .navbar_container{
