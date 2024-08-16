@@ -257,7 +257,7 @@ body{
 }
 
 .total_btns .active_btn{
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
 }
 
 .total_btns .active_btn:hover .white_color{ 
