@@ -3702,9 +3702,12 @@ blockquote cite {
   line-height: 1.375;
   text-transform: capitalize;
   text-decoration: none;
-  border: 1px solid var(--ygency-border-color);
-  border-radius: 0;
-  background-color: transparent;
+  /*border: 1px solid var(--ygency-border-color);
+  */border-radius: 0;
+  border-radius: 10px;
+  /* background-color: transparent; */
+  background: linear-gradient(90deg, #0069EA 0%, #03C7F7 100%);
+
   color: var(--ygency-secondary-color);
   overflow: hidden;
   padding: 18px 35px;
@@ -3722,6 +3725,10 @@ blockquote cite {
   justify-content: center;
   cursor: pointer;
   --icon-spacing: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 @media only screen and (max-width: 767px) {
   .ygency-button {
