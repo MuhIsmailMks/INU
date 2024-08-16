@@ -3084,7 +3084,7 @@
                                   display: inline-block;
                                 }
                               </style>
-                              <img
+                              <!-- <img
                                 fetchpriority="high"
                                 decoding="async"
                                 width="600"
@@ -3092,7 +3092,10 @@
                                 src="wp-content/uploads/2024/02/dcagency_logo_gif.gif"
                                 class="attachment-large size-large wp-image-7182"
                                 alt="Etherscan Marketing"
-                              />
+                              /> -->
+                              <video class="attachment-large size-large wp-image-7182" autoplay loop muted playsinline>
+                                <source src="./wp-content/uploads/images/about.mp4" type="video/mp4"> 
+                            </video>
                             </div>
                           </div>
                         </div>
@@ -5198,12 +5201,18 @@
             </div>
 
             <!-- content -->
-             <div class="content_total">
+             <div id="counter-section" class="content_total">
 
               <div class="impresi container_total box_glass">
 
                 <div>
-                  <h2>1.5B+</h2>
+                  <!-- <h2>1.5B+</h2> -->
+                  <h2 class="counter" >
+                    <span class="counter_number" data-target="1">0</span>
+                    .
+                    <span class="counter_number" data-target="5">0</span>
+                    <span>B+</span>
+                  </h2>
                   <p>Impressions per month</p>
                 </div>
 
@@ -5216,7 +5225,13 @@
               <div class="container_total box_glass">
 
                 <div>
-                  <h2>1.5M+</h2>
+                  <!-- <h2>1.5M+</h2> -->
+                  <h2 class="counter" >
+                    <span class="counter_number" data-target="1">0</span>
+                    .
+                    <span class="counter_number" data-target="5">0</span>
+                    <span>M+</span>
+                  </h2>
                   <p>Clicks per <br> month</p>
                 </div>
  
@@ -5226,7 +5241,10 @@
               <div class="container_total box_glass">
 
                 <div>
-                  <h2>550+</h2>
+                  <h2 class="counter" >
+                    <span class="counter_number" data-target="550">0</span>
+                    <span>+</span>
+                  </h2>
                   <p>Aсtive publishers <br> per month</p>
                 </div>
  
@@ -5236,7 +5254,11 @@
               <div class="container_total box_glass">
 
                 <div>
-                  <h2>200+</h2>
+                  <h2 class="counter" >
+                    <span class="counter_number" data-target="200">0</span>
+                    <span>+</span>
+                  </h2>
+                  
                   <p>Active advertisers per <br> month</p>
                 </div>
  
@@ -5593,7 +5615,7 @@
                     >
                       <div class="elementor-widget-container">
                         <p>
-                          Copyright @2024, <a href="index.html">DCAWeb3</a>. All
+                          Copyright @2024, <a href="#">Etherscan Marketing</a>. All
                           Rights Reserved.
                         </p>
                       </div>
@@ -5655,7 +5677,69 @@
       </footer>
 
     </div>
+ 
+    <script>
+         document.addEventListener('DOMContentLoaded', function() {
+            let video = document.querySelector('.videoAutoPlay'); 
+                video.addEventListener('canplaythrough', function() {
+                    video.play();
+                }, true);
+            });
+ 
 
+            
+
+
+
+
+
+ // Fungsi untuk animasi angka
+ function animateCounter(element, start, end, duration) {
+      let startTime = null;
+
+      function animation(currentTime) {
+        if (!startTime) startTime = currentTime;
+        const timeElapsed = currentTime - startTime;
+        const progress = Math.min(timeElapsed / duration, 1);
+        const currentNumber = Math.floor(progress * (end - start) + start);
+        element.innerText = currentNumber;
+
+        if (progress < 1) {
+          requestAnimationFrame(animation);
+        }
+      }
+
+      requestAnimationFrame(animation);
+    }
+
+    // Fungsi untuk mengecek apakah section terlihat di viewport
+    function isInViewport(element) {
+      const rect = element.getBoundingClientRect();
+      return rect.top >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight);
+    }
+
+    document.addEventListener('scroll', function() {
+      const counterSection = document.getElementById('counter-section');
+      const counters = document.querySelectorAll('.counter .counter_number');
+
+      if (isInViewport(counterSection)) {
+        counters.forEach(counter => {
+          const target = parseInt(counter.getAttribute('data-target'), 10);
+          animateCounter(counter, 0, target, 2000); 
+        }); 
+        document.removeEventListener('scroll', arguments.callee);
+      }
+    });
+
+
+
+
+
+
+
+
+            
+    </script>
     <script type="text/javascript">
       const lazyloadRunObserver = () => {
         const lazyloadBackgrounds = document.querySelectorAll(
@@ -5757,18 +5841,8 @@
       href="wp-content/plugins/metform/public/assets/css/style6f61.css?ver=3.8.9"
       media="all"
     />
-    <script>
-      const pricings = document.querySelectorAll('pricings')
-      pricings.forEach(pricing => {
-        pricing.addEventListener('click', function(event) {
-    event.preventDefault(); 
 
-    const targetSection = document.getElementById('pricing');
-
-    targetSection.scrollIntoView({ behavior: 'smooth' });
-  });
-      }) 
-    </script>
+    
     <script
       src="wp-content/plugins/metform/public/assets/lib/cute-alert/cute-alert6f61.js?ver=3.8.9"
       id="cute-alert-js"

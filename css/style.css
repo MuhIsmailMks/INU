@@ -237,6 +237,12 @@ body{
 }
 
 
+.counter{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
 /* footer */
 .total{
     width: 100%;
