@@ -61,6 +61,34 @@ body{
 }
 
 /* styling */
+/* hero */
+.icon_hero{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+    overflow: hidden;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.icon_hero img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    opacity: .8;
+}
+
+/* plan */
 .ygency-team-member{
     max-width: 300px;
 }
@@ -296,6 +324,16 @@ body{
 
 
 @media screen and (max-width:1023px) { 
+
+    /* hero */
+    .icon_hero{
+        position: relative;
+        right: auto;
+        width: 40%;
+        margin: 0 auto 2rem;
+    }
+
+    /* plan */
     .plan_container .title .main-text{
         font-size: 50px;
     }
@@ -322,6 +360,7 @@ body{
     .slider-container .slider-content{
         text-align: center;
     }
+
 
     .slider-container .slider-button-wrapper {
         display: flex;
