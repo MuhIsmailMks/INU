@@ -47,11 +47,7 @@ body{
 .e-con-inner{
     z-index: 10;
     position: relative;
-}
-
-.bg_red{
-    background-color: red !important;
-}
+} 
 
 .text_gradient{ 
   background: linear-gradient(93.66deg, #004DE4 -23.12%, #02C1FF 98.44%);
@@ -64,6 +60,7 @@ body{
     background-color: #2d5d8a3f; 
 }
 
+ 
 /* styling */
 /* hero */
 .icon_hero{
@@ -244,6 +241,10 @@ body{
 }
 
 /* footer */
+.site-footer{
+    position: relative;
+    overflow: hidden;
+}
 .total{
     width: 100%;
     height: 100%;
