@@ -49,6 +49,10 @@ body{
   -webkit-text-fill-color: #0000;
 }
 
+.box_glass{
+    border: 1px solid #FFFFFF26;
+    background-color: #20598D29; 
+}
 
 /* styling */
 .ygency-team-member{
@@ -227,11 +231,21 @@ body{
 
 .content_total .container_total{
     width: auto;
-    display: flex; 
+
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
+    height: 150px;
+    min-width: 150px;
+    padding: .5rem 1rem;
+    border-radius: 10px;
     color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
  
 
@@ -346,5 +360,10 @@ body{
         align-items: center !important;
         justify-content: center !important;
         width: 100%;
+    }
+
+    .content_total{
+        gap: 1rem;
+        padding: 0rem 1rem;
     }
 }
