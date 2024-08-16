@@ -366,6 +366,9 @@ body{
 
 @media screen and (max-width:600px) {
 
+    .navbar_container{
+        padding: 0 !important;
+    }
     /* hero */
     .slider-container .slider-content{
         text-align: center;
