@@ -5691,11 +5691,35 @@
 
             const target = document.getElementById('pricing');
             window.scrollTo({
-              top: target.offsetTop - -100, // Sesuaikan offset sesuai kebutuhan
+              top: target.offsetTop - -100,  
               behavior: 'smooth'
             });
           });
         });
+
+
+        function updateAosDelay() {
+      const elements = document.querySelectorAll('[data-aos-delay]');
+
+      if (window.innerWidth < 1000) {
+        elements.forEach(element => {
+          element.setAttribute('data-aos-delay', '100');
+        });
+      } else {
+        elements.forEach(element => { 
+          if (element.classList.contains('arrow')) {
+            element.setAttribute('data-aos-delay', '300');
+          } else if (element.classList.contains('column:nth-child(3) .arrow')) {
+            element.setAttribute('data-aos-delay', '500');
+          } else if (element.classList.contains('column:nth-child(5) .arrow')) {
+            element.setAttribute('data-aos-delay', '600');
+          }
+        });
+      }
+    }
+ 
+    window.addEventListener('load', updateAosDelay);
+    window.addEventListener('resize', updateAosDelay);
 
             
     </script>
