@@ -11,7 +11,9 @@
     <link rel="profile" href="https://gmpg.org/xfn/11" />
 
     <title>Etherscan Marketing</title>
-
+ 
+    <!-- AOS scroll effect cdn --> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <!-- All in One SEO 4.6.8.1 - aioseo.com -->
     <meta
       name="description"
@@ -3264,8 +3266,10 @@
                 </div>
 
                 <div id="pricing"   class="plan_container" data-element_type="container elementor-element elementor-element-ba4e41f e-flex e-con-boxed e-con e-child" >
-                  <div class="ygency-section-title">
-                    <div class="subtitle">
+                  <div class="ygency-section-title" data-aos="fade-down"
+                  data-aos-duration="1200"
+                  data-aos-delay="200">
+                    <div class="subtitle" >
                       <span class="title-arrow">
                         <svg
                           viewBox="0 0 38 12"
@@ -3291,7 +3295,9 @@
 
                   <div class="content">
 
-                    <div class="column"> 
+                    <div class="column" data-aos="zoom-in"
+                    data-aos-duration="1200"
+                    data-aos-delay="200"> 
                       <div class="about_plan">
                          <div class="title_plan">
                           <span></span>
@@ -3320,11 +3326,15 @@
                       </div>
                     </div>
 
-                    <div class="arrow">
+                    <div class="arrow" data-aos="zoom-in"
+                    data-aos-duration="1400"
+                    data-aos-delay="300">
                      <img src="./wp-content/uploads/images/arrow.svg" alt="arrow"> 
                     </div>
 
-                    <div class="column"> 
+                    <div class="column" data-aos="zoom-in"
+                    data-aos-duration="1200"
+                    data-aos-delay="400"> 
                       <div class="about_plan">
                          <div class="title_plan">
                           <span></span>
@@ -3353,11 +3363,15 @@
                       </div>
                     </div>
 
-                    <div class="arrow">
+                    <div class="arrow" data-aos="zoom-in"
+                    data-aos-duration="1400"
+                    data-aos-delay="500">
                       <img src="./wp-content/uploads/images/arrow.svg" alt="arrow"> 
                      </div>
  
-                     <div class="column"> 
+                     <div class="column" data-aos="zoom-in"
+                     data-aos-duration="1200"
+                     data-aos-delay="600"> 
                        <div class="about_plan">
                           <div class="title_plan">
                            <span></span>
@@ -5544,12 +5558,7 @@
                               <i aria-hidden="true" class="far fa-envelope"></i>
                             </span>
                             <span class="elementor-icon-list-text">
-                              <!-- <span
-                                class="__cf_email__"
-                                data-cfemail="650c0b030a25010604120007564b060a08"
-                                >
-                                [email&#160;protected]
-                                </span> -->
+                        
                                 support@EtherscanMarketing.com
                                 </span>
                           </a>
@@ -5660,59 +5669,19 @@
 
     </div>
  
+      <!-- aos js library animation -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
          document.addEventListener('DOMContentLoaded', function() {
             let video = document.querySelector('.videoAutoPlay'); 
                 video.addEventListener('canplaythrough', function() {
                     video.play();
                 }, true);
-            });
- 
-
-             
-
-    // Fungsi untuk animasi angka
-    function animateCounter(element, start, end, duration) {
-          let startTime = null;
-
-          function animation(currentTime) {
-            if (!startTime) startTime = currentTime;
-            const timeElapsed = currentTime - startTime;
-            const progress = Math.min(timeElapsed / duration, 1);
-            const currentNumber = Math.floor(progress * (end - start) + start);
-            element.innerText = currentNumber;
-
-            if (progress < 1) {
-              requestAnimationFrame(animation);
-            }
-          }
-
-          requestAnimationFrame(animation);
-        }
-
-        // Fungsi untuk mengecek apakah section terlihat di viewport
-        function isInViewport(element) {
-          const rect = element.getBoundingClientRect();
-          return rect.top >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight);
-        }
-
-        document.addEventListener('scroll', function() {
-          const counterSection = document.getElementById('counter-section');
-          const counters = document.querySelectorAll('.counter .counter_number');
-
-          if (isInViewport(counterSection)) {
-            counters.forEach(counter => {
-              const target = parseInt(counter.getAttribute('data-target'), 10);
-              animateCounter(counter, 0, target, 3000); 
             }); 
-            document.removeEventListener('scroll', arguments.callee);
-          }
-        });
 
-
-
-
-
+            AOS.init({
+              once: true
+            });
 
 
 
