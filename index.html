@@ -3326,10 +3326,10 @@
                       </div>
                     </div>
 
-                    <div class="arrow" data-aos="zoom-in"
-                    data-aos-duration="1400"
-                    data-aos-delay="300">
-                     <img src="./wp-content/uploads/images/arrow.svg" alt="arrow"> 
+                    <div class="arrow" >
+                     <img src="./wp-content/uploads/images/arrow.svg" alt="arrow" data-aos="zoom-in"
+                     data-aos-duration="1400"
+                     data-aos-delay="300"> 
                     </div>
 
                     <div class="column" data-aos="zoom-in"
@@ -3363,10 +3363,10 @@
                       </div>
                     </div>
 
-                    <div class="arrow" data-aos="zoom-in"
-                    data-aos-duration="1400"
-                    data-aos-delay="500">
-                      <img src="./wp-content/uploads/images/arrow.svg" alt="arrow"> 
+                    <div class="arrow" >
+                      <img src="./wp-content/uploads/images/arrow.svg" alt="arrow" data-aos="zoom-in"
+                      data-aos-duration="1400"
+                      data-aos-delay="500"> 
                      </div>
  
                      <div class="column" data-aos="zoom-in"
@@ -5629,7 +5629,7 @@
                           <li
                           class="elementor-icon-list-item elementor-inline-item"
                         >
-                          <a href="#pricing">
+                          <a href="#pricing" class="pricings">
                             <span class="elementor-icon-list-text"
                               >Pricing</span
                             >
@@ -5681,12 +5681,25 @@
 
             AOS.init({
               once: true
+            }); 
+
+            const pricingLinks = document.querySelectorAll('.pricings');
+
+        pricingLinks.forEach(link => {
+          link.addEventListener('click', function(event) {
+            event.preventDefault();
+
+            const target = document.getElementById('pricing');
+            window.scrollTo({
+              top: target.offsetTop - -100, // Sesuaikan offset sesuai kebutuhan
+              behavior: 'smooth'
             });
-
-
+          });
+        });
 
             
     </script>
+
     <script type="text/javascript">
       const lazyloadRunObserver = () => {
         const lazyloadBackgrounds = document.querySelectorAll(
@@ -5790,10 +5803,10 @@
     />
 
     
-    <script
+    <!-- <script
       src="wp-content/plugins/metform/public/assets/lib/cute-alert/cute-alert6f61.js?ver=3.8.9"
       id="cute-alert-js"
-    ></script>
+    ></script> -->
     <script id="ygency-theme-js-extra">
       var ygencyLocalize = {
         ajax_url: "https:\/\/dcaweb3.com\/wp-admin\/admin-ajax.php",
@@ -5882,57 +5895,7 @@
     <script id="wp-i18n-js-after">
       wp.i18n.setLocaleData({ "text direction\u0004ltr": ["ltr"] });
     </script>
-
-    <script id="elementor-pro-frontend-js-before">
-      var ElementorProFrontendConfig = {
-        ajaxurl: "https:\/\/dcaweb3.com\/wp-admin\/admin-ajax.php",
-        nonce: "8d348da7d5",
-        urls: {
-          assets:
-            "https:\/\/dcaweb3.com\/wp-content\/plugins\/elementor-pro\/assets\/",
-          rest: "https:\/\/dcaweb3.com\/wp-json\/",
-        },
-        shareButtonsNetworks: {
-          facebook: { title: "Facebook", has_counter: true },
-          twitter: { title: "Twitter" },
-          linkedin: { title: "LinkedIn", has_counter: true },
-          pinterest: { title: "Pinterest", has_counter: true },
-          reddit: { title: "Reddit", has_counter: true },
-          vk: { title: "VK", has_counter: true },
-          odnoklassniki: { title: "OK", has_counter: true },
-          tumblr: { title: "Tumblr" },
-          digg: { title: "Digg" },
-          skype: { title: "Skype" },
-          stumbleupon: { title: "StumbleUpon", has_counter: true },
-          mix: { title: "Mix" },
-          telegram: { title: "Telegram" },
-          pocket: { title: "Pocket", has_counter: true },
-          xing: { title: "XING", has_counter: true },
-          whatsapp: { title: "WhatsApp" },
-          email: { title: "Email" },
-          print: { title: "Print" },
-          "x-twitter": { title: "X" },
-          threads: { title: "Threads" },
-        },
-        facebook_sdk: { lang: "en_US", app_id: "" },
-        lottie: {
-          defaultAnimationUrl:
-            "https:\/\/dcaweb3.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json",
-        },
-      };
-    </script>
-    <script
-      src="wp-content/plugins/elementor-pro/assets/js/frontend.min28fc.js?ver=3.23.3"
-      id="elementor-pro-frontend-js"
-    ></script>
-    <script
-      src="wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2"
-      id="elementor-waypoints-js"
-    ></script>
-    <script
-      src="wp-includes/js/jquery/ui/core.minb37e.js?ver=1.13.3"
-      id="jquery-ui-core-js"
-    ></script>
+ 
     <script id="elementor-frontend-js-before">
       var elementorFrontendConfig = {
         environmentMode: {
@@ -6060,6 +6023,7 @@
         },
       };
     </script>
+    
     <script
       src="wp-content/plugins/elementor/assets/js/frontend.mind5d5.js?ver=3.23.4"
       id="elementor-frontend-js"
@@ -6069,53 +6033,7 @@
       id="pro-elements-handlers-js"
     ></script>
 
-
-    <script type="text/javascript">
-      jQuery(function ($) {
-        for (let i = 0; i < document.forms.length; ++i) {
-          let form = document.forms[i];
-          if ($(form).attr("method") != "get") {
-            $(form).append(
-              '<input type="hidden" name="IldJiw" value="NMpYFe*irCa4s" />'
-            );
-          }
-          if ($(form).attr("method") != "get") {
-            $(form).append(
-              '<input type="hidden" name="fPwvWnQaSHAMdD" value="6Rc1gCoAJK@V" />'
-            );
-          }
-        }
-
-        $(document).on("submit", "form", function () {
-          if ($(this).attr("method") != "get") {
-            $(this).append(
-              '<input type="hidden" name="IldJiw" value="NMpYFe*irCa4s" />'
-            );
-          }
-          if ($(this).attr("method") != "get") {
-            $(this).append(
-              '<input type="hidden" name="fPwvWnQaSHAMdD" value="6Rc1gCoAJK@V" />'
-            );
-          }
-          return true;
-        });
-
-        jQuery.ajaxSetup({
-          beforeSend: function (e, data) {
-            if (data.type !== "POST") return;
-
-            if (typeof data.data === "object" && data.data !== null) {
-              data.data.append("IldJiw", "NMpYFe*irCa4s");
-              data.data.append("fPwvWnQaSHAMdD", "6Rc1gCoAJK@V");
-            } else {
-              data.data =
-                data.data + "&IldJiw=NMpYFe*irCa4s&fPwvWnQaSHAMdD=6Rc1gCoAJK@V";
-            }
-          },
-        });
-      });
-    </script>
-
+ 
 
   </body>
  

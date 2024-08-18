@@ -3,9 +3,6 @@
     --bodyClr:#090925;
 }
 
-html{
-    scroll-behavior: smooth;
-}
 
 body{
     background-color: var(--bodyClr);
