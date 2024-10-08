@@ -8,13 +8,20 @@
 .goldContainer{
     position: absolute;
     left: 0;
-    top: 0; 
-
+    top: 0;  
     width: 100%;
     height: 100%;
+    object-fit: cover;
 
-    background-color: #ffd700;
-    opacity: 0.2;
+    z-index: 0;
+    background-image: url('../uploads/2024/10/newgif.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.z10{
+    z-index: 10;
 }
 
 .navbar{
@@ -40,7 +47,7 @@
 }
 
 .navbar li a{
-    color: blue;
+    color: black;
     cursor: pointer;
     text-decoration: underline;
 
@@ -101,7 +108,7 @@
 }
 
 .about .title span{
-    color: white;
+    color: black;
     font-size: 1.7em;
 
     /* letter-spacing: -1px; */
@@ -114,7 +121,7 @@
 }
 
 .aboutThis{
-    color: white;
+    color: black;
     font-size: .7em;
     line-height: 1;
     letter-spacing: .2px;
