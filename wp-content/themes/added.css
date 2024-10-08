@@ -18,6 +18,24 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    opacity: 0.6;
+}
+
+.noneMargin{
+    margin: 0 !important;
+}
+
+.topPage{
+    margin-bottom: 50px;
+}
+
+.goldContainer.v2{
+    background-image: url('../uploads/2024/10/bg2.gif');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
 }
 
 .z10{
@@ -87,6 +105,12 @@
       font-family: "Press Start 2P", system-ui;  font-family: "Press Start 2P", system-ui;  font-family: "Press Start 2P", system-ui;font-family: "Press Start 2P", system-ui;
 
     font-weight: bold;
+}
+
+.aboutThisWeb{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
 }
 
 .about .col{
@@ -161,6 +185,11 @@
 
     .aboutThis{
         font-size: .6em;
+    }
+
+    
+    .aboutThisWeb{
+        width: 100; 
     }
     
     .about .title img{
