@@ -224,4 +224,21 @@
         width: auto;
         object-fit: contain;
     }
+ 
+/*   <div class="goldContainer">
+                                 
+                              </div> */
+    .maxWContainerMobile{
+        max-width: 100% !important;
+ 
+        width: 240px !important;
+
+        padding: 0 2rem;
+    }
+
+    .maxWContainerMobile span.z10{
+        width: 80%;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+    }
 }
