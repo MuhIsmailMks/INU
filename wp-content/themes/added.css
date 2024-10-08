@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+.containerPage{
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
 .navbar{
     width: 100%;
     height: auto;
@@ -23,7 +28,7 @@
 }
 
 .navbar li a{
-    color: rgb(255, 255, 255);
+    color: blue;
     cursor: pointer;
     text-decoration: underline;
 
@@ -38,7 +43,7 @@
 }
 
 .navbar li:hover a{
-    color: blue;
+    color: white;
 }
 
 .navbar li img{
@@ -84,7 +89,7 @@
 }
 
 .about .title span{
-    color: #FFE12B;
+    color: white;
     font-size: 1.7em;
 
     /* letter-spacing: -1px; */
