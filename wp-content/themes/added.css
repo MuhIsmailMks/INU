@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.navbar{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ 
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+
+.navbar li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.navbar li a{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: underline;
+
+    font-size: 1em;
+    font-family: "Press Start 2P", system-ui;
+
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -ms-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+}
+
+.navbar li:hover a{
+    color: blue;
+}
+
+.navbar li img{
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+
+/* about */
+.about{
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    
+      font-family: "Press Start 2P", system-ui;  font-family: "Press Start 2P", system-ui;  font-family: "Press Start 2P", system-ui;font-family: "Press Start 2P", system-ui;
+
+    font-weight: bold;
+}
+
+.about .col{
+    width: 30%;
+    min-width: 380px;
+    max-width: 90%;
+
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about .title span{
+    color: #FFE12B;
+    font-size: 1.7em;
+
+    /* letter-spacing: -1px; */
+}
+
+.about .title img{
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.aboutThis{
+    color: white;
+    font-size: .7em;
+    line-height: 1;
+    letter-spacing: .2px;
+    
+    display: flex; 
+    align-items: start;
+    flex-direction: column;
+}
+
+@media screen and (max-width:768px) {
+    /* navbar */
+    .navbar li{
+        gap: 1rem;
+    }
+
+    .navbar li a{
+        font-size:.7em; 
+    }
+
+    
+    .navbar li img{
+        height: 30px; 
+    }
+
+    
+    /* about */
+    .about .col{
+        width: 80%;
+        min-width: 100%;
+
+        padding: 0 1rem;
+    }
+ 
+    .about .title span{ 
+        font-size: 5vw;
+    }
+
+    .aboutThis{
+        font-size: .6em;
+    }
+    
+    .about .title img{
+        height: 30px;
+        width: auto;
+        object-fit: contain;
+    }
+}
