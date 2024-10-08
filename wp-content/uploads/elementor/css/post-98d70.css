@@ -1817,15 +1817,15 @@
 .elementor-9
   .elementor-element.elementor-element-90cf6b5
   .elementor-heading-title {
-  color: #ffffff;
+  color: black;
   font-family: "Pixel", Sans-serif;
   font-size: 15px;
   font-weight: 400;
   -webkit-text-stroke-width: 1px;
   stroke-width: 1px;
-  -webkit-text-stroke-color: #ffffff;
-  stroke: #ffffff;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  /* -webkit-text-stroke-color: #ffffff; */
+  /* stroke: #ffffff; */
+  /* text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); */
 }
 @media (min-width: 768px) {
   .elementor-9 .elementor-element.elementor-element-669317f1 {
