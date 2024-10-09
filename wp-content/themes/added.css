@@ -247,3 +247,19 @@
         text-overflow: ellipsis;
     }
 }
+
+/* animation */
+.rotateImg{
+    animation: rotateImg 10s infinite linear;
+    -webkit-animation: rotateImg 10s infinite linear;
+}
+
+@keyframes rotateImg {
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+}
