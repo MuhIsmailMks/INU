@@ -438,6 +438,10 @@
     .gifContainer{ 
         height: 100px; 
     }
+
+    .gifContainer img{ 
+        border: 3px dashed #ffd700; 
+    }
 }
 
 /* animation */
