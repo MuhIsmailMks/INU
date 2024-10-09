@@ -346,8 +346,7 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-
-    /* margin-top: 6rem; */
+ 
     margin-bottom: 1.6rem;
 
 }
@@ -477,6 +476,10 @@
 
     .gifContainer img{ 
         border: 3px dashed #ffd700; 
+    }
+
+    .tokenomicsContainer{
+        height: 670px;
     }
 }
 
