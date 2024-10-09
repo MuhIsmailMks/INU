@@ -612,7 +612,7 @@
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   /* background-image: url("../../2024/10/Cd0RPXN.gif"); */
-  background-image: url("../../2024/10/newgif.webp");
+     background-image: url("../../images/tokenBg.webp");
   background-color: black;
   background-position: center center;
   background-size: cover;
@@ -622,7 +622,7 @@
   > .elementor-element-populated
   > .elementor-background-overlay {
   /* background-color: #03380e; */
-  background-color: #ffd90091 ;
+  /* background-color: #ffd90091 ; */
 
   /* gold */
   opacity: 0.8;
@@ -690,7 +690,7 @@
   > .elementor-motion-effects-layer {
   /* background-image: url("../../2024/10/bc1e7a06d1a0afa8038ff11561fcb0c1.gif"); */
   background-position: center center;
-  background-image: url("../../2024/10/newgif.webp");
+     background-image: url("../../images/tokenBg.webp");
   background-color: black; 
   background-size: cover;
 }
@@ -699,7 +699,7 @@
   > .elementor-element-populated
   > .elementor-background-overlay {
   /* background-color: #03380e; */
-  background-color: #ffd90091	 ;
+  /* background-color: #ffd90091	 ; */
 
   /* gold */
   opacity: 0.8;
@@ -765,7 +765,7 @@
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-    background-image: url("../../2024/10/newgif.webp");
+    background-image: url("../../images/tokenBg.webp");
     background-color: black; 
   /* background-image: url("../../2024/10/tumblr_73c02e52e674d3091eecd2b1fba6ffca_2b808022_540.gif"); */
   background-position: center center;
@@ -776,7 +776,7 @@
   > .elementor-element-populated
   > .elementor-background-overlay {
   /* background-color: #03380e; */
-  background-color: #ffd90091	 ;
+  /* background-color: #ffd90091	 ; */
 
   /* gold */
   opacity: 0.8;
