@@ -2,7 +2,7 @@
 
 .containerPage{
     flex-direction: column;
-    padding: 0 1rem 0 .5rem;
+    padding: 0 1rem;
 }
 
 .textBlack{
@@ -338,6 +338,11 @@
 
     .mediaImg img{
         width: 40px !important; 
+    }
+
+    .containerPage{
+        flex-direction: column;
+        padding: 0 1rem 0 .5rem;
     }
 }
 
