@@ -300,12 +300,11 @@
     }
 
     .howToImage{
-        padding: 0;
+        padding: 1.5rem 1rem; 
     }
 
     .colImage{ 
         width: 100%;
-        padding: 1rem;
     }
 }
 
