@@ -265,8 +265,8 @@
     width: 100%;
     height: auto;
 
-    border: 5px solid #ffd700;
-    border-style: groove;
+    border: 5px dashed #ffd700;
+    /* border-style: groove; */
 }
 
 /* pop up */
