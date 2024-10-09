@@ -264,6 +264,8 @@
 .gifContainer img{
     width: 100%;
     height: auto;
+
+    border: 2px solid #ffd700;
 }
 
 /* pop up */
