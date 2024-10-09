@@ -235,6 +235,18 @@
     -o-border-radius: 20px;
 }
 
+
+.contractAddress{
+    width: 500px !important;
+    min-width: 500px !important;
+}
+
+.mediaImg img{
+    width: 50px !important;
+    height: auto; 
+    object-fit: contain;
+}
+
 @media screen and (max-width:768px) {
     body{
         max-width: 100%;
@@ -291,10 +303,7 @@
         width: auto;
         object-fit: contain;
     }
- 
-/*   <div class="goldContainer">
-                                 
-                              </div> */
+  
     .maxWContainerMobile{
         max-width: 100% !important;
  
@@ -320,6 +329,15 @@
 
     .colImage{ 
         width: 100%;
+    }
+
+    .contractAddress{
+        width: 90% !important;
+        min-width: 90% !important;
+    }
+
+    .mediaImg img{
+        width: 40px !important; 
     }
 }
 
