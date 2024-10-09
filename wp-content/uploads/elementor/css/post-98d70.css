@@ -611,7 +611,9 @@
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("../../2024/10/Cd0RPXN.gif");
+  /* background-image: url("../../2024/10/Cd0RPXN.gif"); */
+  background-image: url("../../2024/10/newgif.webp");
+  background-color: black;
   background-position: center center;
   background-size: cover;
 }
@@ -686,8 +688,10 @@
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("../../2024/10/bc1e7a06d1a0afa8038ff11561fcb0c1.gif");
+  /* background-image: url("../../2024/10/bc1e7a06d1a0afa8038ff11561fcb0c1.gif"); */
   background-position: center center;
+  background-image: url("../../2024/10/newgif.webp");
+  background-color: black; 
   background-size: cover;
 }
 .elementor-9
@@ -761,7 +765,9 @@
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("../../2024/10/tumblr_73c02e52e674d3091eecd2b1fba6ffca_2b808022_540.gif");
+    background-image: url("../../2024/10/newgif.webp");
+    background-color: black; 
+  /* background-image: url("../../2024/10/tumblr_73c02e52e674d3091eecd2b1fba6ffca_2b808022_540.gif"); */
   background-position: center center;
   background-size: cover;
 }

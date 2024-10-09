@@ -332,6 +332,15 @@
 }
 
 /* tokenomics */
+.tokenomicsContainer{
+    position: relative;
+    z-index: 20;
+}
+
+.tokenomicsContainer .elementor-column{
+    position: relative;
+    z-index: 10;
+}
 /* .tokenomicsContainer{
     position: relative;
     height:700px;
