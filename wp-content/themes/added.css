@@ -9,6 +9,20 @@
     color: black !important;
 }
 
+.gradient_text { 
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: bold;
+    animation: bgTextAnimation  infinite linear;
+    animation-duration: 1s !important;
+    -webkit-animation: bgTextAnimation  infinite linear;
+
+    font-size: 1.5rem !important;
+}
+  
+
 .goldContainer{
     position: absolute;
     left: 0;
@@ -121,7 +135,7 @@
 }
 
 .wfullInMobile{
-    width: 50%;
+    width: 100%;
     min-width: 200px;
 }
 
@@ -323,3 +337,24 @@
         -o-transform: rotate(360deg);
 }
 }
+
+@keyframes bgTextAnimation {
+    0%,100%{
+        background: linear-gradient(90deg, red 0%, #ffd700 47.5%, white 100%); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    30%{
+        background: linear-gradient(90deg, white 0%, red 47.5%, #ffd700 100%);
+        
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    60%{
+        background: linear-gradient(90deg, #ffd700 0%, white 47.5%,  red 100%);
+        
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+ 
