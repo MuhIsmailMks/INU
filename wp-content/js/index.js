@@ -1,14 +1,14 @@
 const popUp = document.querySelector('.pop-up');
-const enterBtn = document.querySelector('.enterBtn');
-const audioElement = document.getElementById('background-music');
+// const enterBtn = document.querySelector('.enterBtn');
+// const audioElement = document.getElementById('background-music');
 
-enterBtn.addEventListener('click', () => {
-    popUp.classList.add('active');
+// enterBtn.addEventListener('click', () => {
+//     popUp.classList.add('active');
 
-    audioElement.volume = 0.1;
-    audioElement.play();
-    isMusicPlaying = true;  
-})
+//     audioElement.volume = 0.1;
+//     audioElement.play();
+//     isMusicPlaying = true;  
+// })
 
 // copy
 const copyAddress = document.querySelector('.contractAddress');

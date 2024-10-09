@@ -9,6 +9,10 @@
     color: black !important;
 }
 
+.nonePadding{
+    padding: 0 !important;
+}
+
 .gradient_text { 
 
     -webkit-background-clip: text;
@@ -327,6 +331,38 @@
     font-family: "Press Start 2P", system-ui;
 }
 
+/* tokenomics */
+.tokenomicsContainer{
+    position: relative;
+    height:700px;
+
+    width: 100%;
+    background-image: url("../uploads/images/newLotTrans.gif");
+    background-position: center center;
+    background-size: 8% auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+    /* margin-top: 6rem; */
+    margin-bottom: 1.6rem;
+
+}
+
+.tokenomicsContainer::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: #ffd700;
+    opacity: 0.6;
+}
 
 /* media screen */
 @media screen and (max-width:768px) {
