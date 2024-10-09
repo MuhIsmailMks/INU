@@ -294,6 +294,7 @@
 .gifImgContainer{
     position: absolute;
     width: 20%;
+    background-color: black;
 }
 
 .gifContainer img{
