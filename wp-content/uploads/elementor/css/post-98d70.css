@@ -32,8 +32,10 @@
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #161616;
-  background-image: url("../../2024/10/download-1.gif");
+  background-color: #dadada;
+  /* background-color: #161616; */
+  background-image: url("../../images/newLotTrans.gif");
+  /* background-image: url("../../2024/10/download-1.gif"); */
   background-position: center center;
   background-size: 13% auto;
 }
