@@ -371,45 +371,11 @@
 .tokenomicsContainer .elementor-column{
     position: relative;
     z-index: 10;
+} 
+
+.pbMedium{
+    padding-bottom: 2rem;
 }
-
-/* .tokenomicsContainer .tokenText{
-    color: #ffd700 !important;
-    -webkit-text-stroke-width: 1px;
-    stroke-width: 1px;
-    -webkit-text-stroke-color: #ffd700 !important;
-} */
-
-/* .tokenomicsContainer{
-    position: relative;
-    height:700px;
-
-    width: 100%;
-    background-image: url("../uploads/images/newLotTrans.gif");
-    background-position: center center;
-    background-size: 8% auto;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
- 
-    margin-bottom: 1.6rem;
-
-}
-
-.tokenomicsContainer::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-
-    background-color: #ffd700;
-    opacity: 0.6;
-} */
 
 /* media screen */
 @media screen and (max-width:768px) {
