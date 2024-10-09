@@ -2,7 +2,7 @@
 
 .containerPage{
     flex-direction: column;
-    padding: 0 1rem;
+    padding: 0 1rem 0 .5rem;
 }
 
 .textBlack{
