@@ -113,7 +113,7 @@
 .bg-about {
   background-image: url(../img/logo.jpg);
   background-position: center;
-  background-size: contain;
+  background-size: contain; 
 }
 
 .bg-services {
