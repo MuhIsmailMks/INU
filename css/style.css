@@ -113,7 +113,10 @@
 .bg-about {
   background-image: url(../img/logo.jpg);
   background-position: center;
-  background-size: contain; 
+  background-size: contain;
+
+  animation: float 8s ease-in-out infinite;
+  -webkit-animation: float 8s ease-in-out infinite; 
 }
 
 .bg-services {
@@ -122,6 +125,9 @@
 
 .bg-contact {
   background-image: url(../img/logo.jpg);
+  
+  animation: float 8s ease-in-out infinite;
+  -webkit-animation: float 8s ease-in-out infinite; 
 }
 
 /* 2. reset */
@@ -3229,3 +3235,27 @@ h2.section-heading.section-heading-all {
       <br>
       <br> 
     */
+
+
+    /* animation */
+    
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-1vw);
+    -webkit-transform: translateY(-1vw);
+    -moz-transform: translateY(-1vw);
+    -ms-transform: translateY(-1vw);
+    -o-transform: translateY(-1vw);
+  }
+  70% {
+    transform: translateY(1vw);
+    -webkit-transform: translateY(1vw);
+    -moz-transform: translateY(1vw);
+    -ms-transform: translateY(1vw);
+    -o-transform: translateY(1vw);
+  }
+}
