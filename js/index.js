@@ -12,7 +12,8 @@ function handleCopy() {
     
     // Setelah 2 detik, kembalikan teks ke nilai aslinya
     setTimeout(() => {  
-    //   copyStatus = textToCopy;
+    //   copyStatus = textToCopy; 
+    copyStatus = '0x85A3. . .9e40ab9';
       textRef.textContent = copyStatus; // Kembalikan teks di elemen
     }, 2000);
   }).catch(err => {
