@@ -2987,7 +2987,7 @@ h2.section-heading {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-align: left;
   letter-spacing: 0.05em;
   color: #2e2e2e;
