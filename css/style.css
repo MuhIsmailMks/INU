@@ -1716,7 +1716,8 @@ h2.section-heading-home {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: capitalize;
+  /* text-transform: uppercase; */
   text-align: left;
   letter-spacing: 0.05em;
   color: #569b6e;

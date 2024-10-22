@@ -47,9 +47,9 @@
             </div><!-- logo end -->
             
             <div class="contract copyContainer">
-                <p id="textToCopy" data-text="0x85A3F40aBbB9e0c761A15dd5824A4aa839e40ab9">
+                <p id="textToCopy1" data-text="0x85A3F40aBbB9e0c761A15dd5824A4aa839e40ab9">
                     0x85A3. . .9e40ab9</p>
-                <button id="copyButton">
+                <button id="copyButton1">
                     <img src="./img/copy.svg" alt="">
                 </button>
             </div>
@@ -422,9 +422,15 @@ Stay loyal, stay strong, and let’s build together.
                                             <div class="inner-divider"></div><!-- divider end -->
                                             <!-- section TXT start -->
                                             <div class="all-txt">
-                                                <p>
-                                                    <span class="color-details">Contract:</span> <span id="caddress" style="background-color: #E9E9E9; padding: 10px; border-radius: 5px; cursor: pointer;text-overflow: ellipsis; max-width: 90%;overflow: hidden;" title="Click to Copy Address">0x85A3F40aBbB9e0c761A15dd5824A4aa839e40ab9</span>
-                                                </p>
+                                                <div style="display: flex;justify-content: start;align-items: center;">
+                                                    <span class="color-details">Contract:</span> <div   style="background-color: #E9E9E9;padding: 0 1rem; width: auto; border-radius: 5px; cursor: pointer;text-overflow: ellipsis; max-width: 90%;overflow: hidden; display: flex;justify-content: start;align-items: center;gap: 1rem;" title="Click to Copy Address" id="copyButton2">
+                                                        <p id="textToCopy2" data-text="0x85A3F40aBbB9e0c761A15dd5824A4aa839e40ab9">
+                                                            0x85A3. . .9e40ab9
+                                                        </p>
+
+                                                        <img src="./img/copyBlack.svg" alt="" style="width: 30px; height: auto;object-fit: contain;"  >
+                                                    </div>
+                                                </div>
                                                
                                                 <p>
                                                     <span class="color-details">Email:</span> <a class="link-underline" href="#">team@inu.com</a>
@@ -698,22 +704,7 @@ Stay loyal, stay strong, and let’s build together.
 
 // sound.play();
         </script>
-        
-        <script>
-        const span = document.querySelector("#caddress");
-
-span.onclick = function() {
-  document.execCommand("copy");
-}
-
-span.addEventListener("copy", function(event) {
-  event.preventDefault();
-  if (event.clipboardData) {
-    event.clipboardData.setData("text/plain", span.textContent);
-    
-  }
-});
-        </script>
+         
     </body>
 </html>
 
