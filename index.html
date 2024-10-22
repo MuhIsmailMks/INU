@@ -12,7 +12,8 @@
         <link rel="icon" type="image/png" href="./img/favicon.jpg"/>
         <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
        
-
+ <!-- AOS scroll effect cdn --> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />  
         <!-- style start -->
         <link href="css/plugins.css" media="all" rel="stylesheet" type="text/css">
         <link href="css/style.css" media="all" rel="stylesheet" type="text/css"><!-- style end -->
@@ -162,7 +163,9 @@
  
    
         <!-- top mobile -->
-        <div class="topMobile">
+        <div class="topMobile" data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-delay="2100">
             <div class="contract copyContainer hero">
                 <p id="textToCopy3" data-text="0x85A3F40aBbB9e0c761A15dd5824A4aa839e40ab9">
                     0x85A3. . .9e40ab9</p>
@@ -640,6 +643,9 @@
                 </div><!-- lower page end -->
             </div>
         </div><!-- newsletter end -->
+        
+     <!-- aos js library animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
         <!-- scripts start -->
          <script src="./js/index.js"></script>
         <script src="js/plugins.js">
@@ -649,16 +655,9 @@
         <script src="howler.js"></script>
           <script src="js/web3.config.js"></script>
   <script src="js/web3.list.js"></script>
-        <script>
-//             var sound = new Howl({
-//   src: ['suzume.mp3'],
-//   html5: true,
-//   autoplay: true,
-//   loop: true
-// });
+        
 
-// sound.play();
-        </script>
+    
          
     </body>
 </html>

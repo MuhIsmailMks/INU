@@ -1,3 +1,8 @@
+AOS.init({
+  once: true
+});
+
+
 let originalText = {
     element1: '0x85A3. . .9e40ab9', // Teks asli elemen pertama
     element2: '0x85A3. . .9e40ab9', // Teks asli elemen pertama 
