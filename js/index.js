@@ -24,4 +24,5 @@ let originalText = {
   // Contoh penggunaan, tambahkan event listener pada kedua tombol
   document.getElementById('copyButton1').addEventListener('click', () => handleCopy('textToCopy1'));
   document.getElementById('copyButton2').addEventListener('click', () => handleCopy('textToCopy2'));
+  document.getElementById('copyButton3').addEventListener('click', () => handleCopy('textToCopy3'));
   
