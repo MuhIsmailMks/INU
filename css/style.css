@@ -3182,6 +3182,33 @@ h2.section-heading.section-heading-all {
   font-size: 1.5rem;
 }
 
+.socialContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.socialIcon{
+  width: 35px;
+  height: auto;
+  object-fit: contain;
+  rotate: 90deg;
+  transition: .1s ease;
+  -webkit-transition: .1s ease;
+  -moz-transition: .1s ease;
+  -ms-transition: .1s ease;
+  -o-transition: .1s ease;
+}
+
+.socialIcon:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
 @media screen and (max-width:900px) {
   .bg_img2{
     width: 80%; 
