@@ -111,7 +111,9 @@
 
 /* 1.5. sections IMG BACKGROUND */
 .bg-about {
-  background-image: url(../img/logo.jpg);
+  background-image: url(../img/logo.jpg); 
+  
+  background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 
@@ -125,6 +127,11 @@
 
 .bg-contact {
   background-image: url(../img/logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  
+  /* min-width: 100vh; */
   
   animation: float 8s ease-in-out infinite;
   -webkit-animation: float 8s ease-in-out infinite; 
@@ -2399,13 +2406,13 @@ li {
 .all-bg {
   width: 100%;
   height: auto;
-  background-position: center center;
+  /* background-position: center center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 
 /* 29. post TXT right */
