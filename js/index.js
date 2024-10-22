@@ -1,4 +1,4 @@
-let copyStatus = '  0x85A3. . .9e40ab9'; // Teks asli
+let copyStatus = '0x85A3. . .9e40ab9'; // Teks asli
 const textRef = document.getElementById('textToCopy'); // Menggunakan ID untuk mendapatkan elemen
 
 function handleCopy() {
@@ -12,7 +12,7 @@ function handleCopy() {
     
     // Setelah 2 detik, kembalikan teks ke nilai aslinya
     setTimeout(() => {  
-      copyStatus = textToCopy;
+    //   copyStatus = textToCopy;
       textRef.textContent = copyStatus; // Kembalikan teks di elemen
     }, 2000);
   }).catch(err => {
