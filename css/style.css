@@ -60,12 +60,12 @@
 /* 1. TEMPLATE BACKGROUNDS */
 /* 1.1. single IMG BACKGROUND */
 .bg-img-SINGLE {
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/background2.jpg);
   /* background-image: url(../new/back.jpg); */
 }
 
 .bg_img2{
-  width: 40%;
+  width: 30%;
   height: auto;
   position: absolute;
   bottom: 0;
@@ -3232,7 +3232,8 @@ h2.section-heading.section-heading-all {
 
 @media screen and (max-width:900px) {
   .bg_img2{
-    width: 80%; 
+    width: 50%; 
+    /* width: 80%;  */
   }
 
   .copyContainer{
