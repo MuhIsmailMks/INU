@@ -80,7 +80,7 @@
   position: absolute;
   z-index: 99;
 
-  left: 50%;
+  left: 85%;
   top: 30%;
   transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
@@ -3288,13 +3288,13 @@ h2.section-heading.section-heading-all {
 
     
   .topMobile{
-    z-index: 99;
+    z-index: 99; 
     opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 100px;
+    top: 80%;
     width: 100%; 
   }
 
@@ -3304,7 +3304,8 @@ h2.section-heading.section-heading-all {
  
 
   .textHeroContainer{
-    top: 24%;
+    top: 18%;
+    left: 50%;
   }
 
     .textHero{
