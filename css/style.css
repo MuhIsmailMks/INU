@@ -60,7 +60,7 @@
 /* 1. TEMPLATE BACKGROUNDS */
 /* 1.1. single IMG BACKGROUND */
 .bg-img-SINGLE {
-  background-image: url(../img/background2.jpg);
+  /* background-image: url(../img/background2.jpg); */
   /* background-image: url(../new/back.jpg); */
 }
 
@@ -378,6 +378,12 @@ strong {
   background-size: cover;
 }
 
+.hero-bg video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
 /* 6.2. hero fullscreen FIX */
 .hero-fullscreen-FIX {
   width: 100%;
