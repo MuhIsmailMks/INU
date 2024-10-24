@@ -34,29 +34,10 @@ let originalText = {
 
 
   // video background
+const videosSpeed = document.querySelectorAll('.background_video');
 
-// function updateVideoSource() {
-//   const video = document.getElementById('background_video');
-//   const source = video.querySelector('source');
-  
-//   if (window.innerWidth < 1000) {
-//       source.setAttribute('src', '../img/video/bgMobile.mp4'); // Video untuk mobile
-//   } else {
-//       source.setAttribute('src', '../img/video/bgDesktop.mp4'); // Video untuk desktop
-//   }
-  
-//   // Load ulang video dengan source baru
-//   video.load();
-// } 
-// window.onload = updateVideoSource;
- 
-// window.onresize = updateVideoSource;
-
-// speed video
-// Mengatur kecepatan setelah video bisa diputar
-document.getElementById('background_video').addEventListener('canplay', function() {
-  this.playbackRate = 1.1;
-});
-document.getElementById('background_video2').addEventListener('canplay', function() {
-  this.playbackRate = 1.1;
-});
+videosSpeed.forEach(video => {
+  video.addEventListener('canplay', function() {
+    this.playbackRate = 1.1;
+  });
+}) 
