@@ -34,10 +34,10 @@ let originalText = {
 
 
   // video background
-const videosSpeed = document.querySelectorAll('.background_video');
+// const videosSpeed = document.querySelectorAll('.background_video');
 
-videosSpeed.forEach(video => {
-  video.addEventListener('canplay', function() {
-    this.playbackRate = 1.1;
-  });
-}) 
+// videosSpeed.forEach(video => {
+//   video.addEventListener('canplay', function() {
+//     this.playbackRate = 1.1;
+//   });
+// }) 
